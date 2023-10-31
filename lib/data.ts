@@ -33,7 +33,7 @@ export const profile = {
 	],
 	mail: "connect@eren.codes",
 	headline:
-		"Hi, I'm Eren. Fullstack Developer who loves to code and design experiences on the web.",
+		"Hi, I'm Eren. Full Stack Developer who loves to code and design experiences on the web.",
 	description:
 		"With a passion for coding and an eye for design, I craft seamless online journeys using CSS, JavaScript, Python, React, TypeScript and Solidity. Whether it's frontend magic, backend wizardry or web3 witchcraft, I've got the skills to turn your web dreams into reality.",
 	links: [
@@ -95,7 +95,7 @@ export const works = [
 	{
 		title: "Our Studio",
 		description:
-			"I work as a fullstack and blockchain developer in this project. When completed, creators will be able to mint their stock photos and videos on this platform and users will be able to buy assets using their crypto wallets.",
+			"I work as a full stack and blockchain developer in this project. When completed, creators will be able to mint their stock photos and videos on this platform and users will be able to buy assets using their crypto wallets.",
 		url: "https://ourstudio.shop/",
 		image: ourStudio,
 		categories: ["frontend", "backend", "blockchain"],
@@ -215,7 +215,7 @@ export const works = [
 	{
 		title: "Alsenetle",
 		description:
-			"I worked as a fullstack developer in this project. Alsenetle was a 2nd hand auto ads platform. It was live between 2017 and 2019.",
+			"I worked as a full stack developer in this project. Alsenetle was a 2nd hand auto ads platform. It was live between 2017 and 2019.",
 		url: "https://web.archive.org/web/20180816232906/https://www.alsenetle.com/",
 		image: alsenetle,
 		categories: ["frontend", "backend"],
@@ -224,7 +224,7 @@ export const works = [
 	{
 		title: "JokerKart",
 		description:
-			"I worked as a fullstack developer in this project. JokerKart was a customer royalty platform where companies could create and manage their own royalty services. It was live between 2014 and 2019.",
+			"I worked as a full stack developer in this project. JokerKart was a customer royalty platform where companies could create and manage their own royalty services. It was live between 2014 and 2019.",
 		url: "https://web.archive.org/web/20150901204730/http://jokerkart.com/",
 		image: jokerKart,
 		categories: ["frontend", "backend"],
@@ -233,7 +233,7 @@ export const works = [
 	{
 		title: "Restoranya",
 		description:
-			"I worked as a fullstack developer in this project. Restoranya was an online food ordering platform. It was live between 2009 and 2015.",
+			"I worked as a full stack developer in this project. Restoranya was an online food ordering platform. It was live between 2009 and 2015.",
 		url: "https://web.archive.org/web/20130302150626/http://restoranya.com/",
 		image: restoranya,
 		categories: ["frontend", "backend"],
@@ -262,10 +262,10 @@ export const skills = [
 
 export const experiences = [
 	{
-		title: "Fullstack Developer",
+		title: "Full Stack Developer",
 		company: "Freelance",
 		description:
-			"I'm now a fullstack developer working as a freelancer. My stack includes Solidity, CSS, React, Next.js, TypeScript, Tailwind, SQL and WordPress. I'm open to full-time remote opportunities.",
+			"I'm now a full stack developer working as a freelancer. My stack includes Solidity, CSS, React, Next.js, TypeScript, Tailwind, SQL and WordPress. I'm open to full-time remote opportunities.",
 		date: "2018",
 	},
 	{
@@ -276,7 +276,7 @@ export const experiences = [
 		date: "2016",
 	},
 	{
-		title: "Fullstack Developer",
+		title: "Full Stack Developer",
 		company: "BTDays Technology",
 		description:
 			"I helped build a customer loyalty platform which is written in Python using Django Framework called JokerKart. I worked as both backend and frontend developer. Also, my other responsibility was managing Git repos.",
@@ -290,7 +290,7 @@ export const experiences = [
 		date: "2013",
 	},
 	{
-		title: "Fullstack Developer",
+		title: "Full Stack Developer",
 		company: "Restoranya Inc.",
 		description:
 			"Restoranya was an online food delivery platform that was written in Python using Django Framework. I worked as both a backend and frontend developer. Also, my other responsibilities were managing Git repos, databases and servers.",
