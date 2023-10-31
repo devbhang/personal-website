@@ -270,7 +270,7 @@ export const experiences = [
 	},
 	{
 		title: "WordPress Developer",
-		company: "Digital AEC",
+		company: "VigitalArt",
 		description:
 			"We were building premium themes for Envato Market using CSS3, Javascript (jQuery) and Visual Composer integrated with WordPress CMS.",
 		date: "2016",
@@ -279,7 +279,7 @@ export const experiences = [
 		title: "Fullstack Developer",
 		company: "BTDays Technology",
 		description:
-			"I helped building a customer loyalty platform which is written in Python using Django Framework called JokerKart. I worked as both backend and frontend developer. Also my other responsibility was managing Git repos.",
+			"I helped build a customer loyalty platform which is written in Python using Django Framework called JokerKart. I worked as both backend and frontend developer. Also, my other responsibility was managing Git repos.",
 		date: "2014",
 	},
 	{
@@ -293,7 +293,7 @@ export const experiences = [
 		title: "Fullstack Developer",
 		company: "Restoranya Inc.",
 		description:
-			"Restoranya was an online food delivery platform which was written in Python using Django Framework. I worked as both backend and frontend developer. Also my other responsibilities were managing Git repos, databases and servers.",
+			"Restoranya was an online food delivery platform that was written in Python using Django Framework. I worked as both a backend and frontend developer. Also, my other responsibilities were managing Git repos, databases and servers.",
 		date: "2009",
 	},
 	{
