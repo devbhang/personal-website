@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 
 function Hero() {
 	return (
-		<section className="min-h-[85vh] md:min-h-min max-w-screen-md mr-auto py-20">
+		<section className="min-h-[85vh] md:min-h-min flex flex-col justify-end max-w-screen-md mr-auto py-14 md:py-20">
 			<motion.h1
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
-				className="text-3xl md:text-5xl text-transparent bg-gradient-to-bl md:bg-gradient-to-br bg-clip-text from-white via-white to-[#454545] to-90%"
+				className="text-3xl md:text-5xl text-transparent bg-gradient-to-br bg-clip-text from-white via-white to-[#454545] to-90%"
 			>
 				{profile.headline}
 			</motion.h1>
@@ -24,9 +24,14 @@ function Hero() {
 				{profile.description}
 			</motion.p>
 
-			<div className="flex flex-wrap gap-5">
+			<div className="flex flex-wrap justify-between gap-5">
 				{profile.links.map((link, index) => (
-					<Button key={index} variant="outline" asChild>
+					<Button
+						key={index}
+						variant="outline"
+						className="profile-links"
+						asChild
+					>
 						<motion.a
 							href={link.url}
 							initial={{ opacity: 0 }}
@@ -36,7 +41,10 @@ function Hero() {
 							rel="nofollow noreferrer"
 							title={link.title}
 						>
-							{link.icon} {link.title}
+							{link.icon}{" "}
+							<span className="hidden md:inline">
+								{link.title}
+							</span>
 						</motion.a>
 					</Button>
 				))}

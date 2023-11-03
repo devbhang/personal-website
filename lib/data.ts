@@ -40,26 +40,32 @@ export const profile = {
 		{
 			title: "GitHub",
 			url: "https://github.com/devbhang",
-			icon: React.createElement(Github, { className: "mr-3 h-4 w-4" }),
+			icon: React.createElement(Github, { className: "md:mr-3 h-4 w-4" }),
 		},
 		{
 			title: "Linkedin",
 			url: "https://www.linkedin.com/in/erensuleymanoglu",
-			icon: React.createElement(Linkedin, { className: "mr-3 h-4 w-4" }),
+			icon: React.createElement(Linkedin, {
+				className: "md:mr-3 h-4 w-4",
+			}),
 		},
 		{
 			title: "Twitter",
 			url: "https://twitter.com/devbhang",
-			icon: React.createElement(Twitter, { className: "mr-3 h-4 w-4" }),
+			icon: React.createElement(Twitter, {
+				className: "md:mr-3 h-4 w-4",
+			}),
 		},
 		{
 			title: "Instagram",
 			url: "https://www.instagram.com/erensuleymanoglu",
-			icon: React.createElement(Instagram, { className: "mr-3 h-4 w-4" }),
+			icon: React.createElement(Instagram, {
+				className: "md:mr-3 h-4 w-4",
+			}),
 		},
 		{
 			title: "Download CV",
-			url: "#",
+			url: "./Resume-Eren-Süleymanoğlu.pdf",
 			icon: React.createElement(Download, { className: "mr-3 h-4 w-4" }),
 		},
 	],

@@ -46,6 +46,14 @@
         @apply text-foreground;
     }
 
+    .profile-links:last-child {
+        @apply grow md:grow-0 justify-center;
+    }
+
+    .profile-links:last-child span {
+        @apply !inline;
+    }
+
     .marquee-list::before {
         @apply content-[""] absolute inset-0 z-10;
         background: linear-gradient(90deg, hsl(var(--background)) 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 90%, hsl(var(--background)) 100%);
